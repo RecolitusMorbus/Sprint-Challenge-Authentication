@@ -2,7 +2,8 @@ const db = require('../database/dbConfig.js');
 
 module.exports = {
   add,
-  findBy
+  findBy,
+  findById
 };
 
 function findBy(filter) {
